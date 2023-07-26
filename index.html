@@ -27,21 +27,24 @@
 <body class="fonts">
   <header>
     <!-- start nav bar -->
-    <div class="max-w-screen-xl mx-auto bg-white navbar md:bg-[#F85559] rounded-full ">
-      <div class="flex flex-row-reverse">
-        <div class="dropdown">
+
+
+    <!-- small size nav bar -->
+    <div class=" md:hidden lg:hidden max-w-screen-xl mx-auto bg-white navbar rounded-full ">
+      <div class="flex">
+        <div class="dropdown ">
           <label tabindex="0" class="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-10" fill="none" viewBox="0 0 24 24"
               stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
             </svg>
           </label>
-          <ul tabindex="0" class="menu   menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+          <ul tabindex="0" class="menu  w-full  dropdown-content mt-3 z-[1] p-2 shadow bg-orange-400 rounded-box w-52">
             <li><a>Home</a></li>
             <li><a>About Us</a></li>
             <li><a>All Fruits</a></li>
             <li><a href="">
-                <div class="navbar-start">
+                <div class="navbar-start ">
                   <input type="text" placeholder="Type here" class="input rounded-3xl w-full max-w-xs " />
                   <i class="absolute mr-6 fa-solid fa-magnifying-glass"></i>
                 </div>
@@ -50,7 +53,7 @@
         </div>
 
       </div>
-      <div class="navbar-centar hidden text-white text-xl lg:flex">
+      <div class="navbar-centar hidden  text-white text-xl lg:flex">
         <ul class="menu menu-horizontal px-1">
           <li><a>Home</a></li>
           <li><a>About Us</a></li>
@@ -58,7 +61,7 @@
 
 
       </div>
-      <a class="btn btn-ghost ml-auto normal-case h-[60px] text-xl">
+      <a class="btn -order-1  btn-ghost ml-2  normal-case h-[60px] text-xl">
         <img " src=" images/logo.png" alt="">
         <p class="text-black md:text-white">Fruit Burst</p>
       </a>
@@ -67,6 +70,99 @@
         <i class="absolute mr-6 fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
+
+<!-- learge size nav bar -->
+    <div class="  hidden lg:flex md:flex md:hidden lg:block  flex  max-w-screen-xl mx-auto bg-white  navbar lg:bg-[#F85559] rounded-full ">
+      <div class="flex  flex-row-reverse">
+        <div class="dropdown">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </label>
+          <ul tabindex="0" class="menu  menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>All Fruits</a></li>
+            <li><a href="">
+                <div class="navbar-start ">
+                  <input type="text" placeholder="Type here" class="input rounded-3xl w-full max-w-xs " />
+                  <i class="absolute mr-6 fa-solid fa-magnifying-glass"></i>
+                </div>
+              </a></li>
+
+        </div>
+
+      </div>
+      <div class="navbar-centar hidden  text-white text-xl lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>About Us</a></li>
+          <li><a>All Fruits</a></li>
+
+
+      </div>
+      <a class="btn btn-ghost ml-2 lg:ml-auto normal-case h-[60px] text-xl">
+        <img " src=" images/logo.png" alt="">
+        <p class="text-black lg:text-white md:text-black">Fruit Burst</p>
+      </a>
+      <div class="navbar-end hidden lg:flex lg:block">
+        <input type="text" placeholder="Type here" class="input rounded-3xl w-full max-w-xs " />
+        <i class="absolute mr-6 fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+
+
+
+<!-- medium size navbar -->
+    <div class="  hidden  md:flex lg:hidden   flex  max-w-screen-xl mx-auto bg-white  navbar bg-[#F85559] rounded-full ">
+      <div class="flex  flex-row-reverse">
+        <div class="dropdown px-20">
+          <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+            </svg>
+          </label>
+          <ul tabindex="0" class="menu  menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100  rounded-box w-52">
+            <li><a>Home</a></li>
+            <li><a>About Us</a></li>
+            <li><a>All Fruits</a></li>
+            <li><a href="">
+                <div class="navbar-start ">
+                  <input type="text" placeholder="Type here" class="input rounded-3xl w-full max-w-xs " />
+                  <i class="absolute mr-6 fa-solid fa-magnifying-glass"></i>
+                </div>
+              </a></li>
+
+        </div>
+
+      </div>
+      <div class="navbar-centar hidden  text-white text-xl lg:flex">
+        <ul class="menu menu-horizontal px-1">
+          <li><a>Home</a></li>
+          <li><a>About Us</a></li>
+          <li><a>All Fruits</a></li>
+
+
+      </div>
+      <a class="btn btn-ghost ml-2 lg:ml-auto normal-case h-[60px] text-xl px-20">
+       
+        <img " src=" images/logo.png" alt="">
+        <p class="text-black lg:text-white md:text-black">Fruit Burst</p>
+  
+      </a>
+      <div class="navbar-end hidden lg:flex lg:block">
+        <input type="text" placeholder="Type here" class="input rounded-3xl w-full max-w-xs " />
+        <i class="absolute mr-6 fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+
+
+
+
+
     <!-- end nav bar -->
     <!-- start banner section -->
     <section class="md:max-w-screen-xl mx-auto md:px-16 lg:px-24  ">
@@ -222,7 +318,7 @@
         <div class="card  bg-base-100 shadow-xl ">
           <figure><img src="images/fruit6.png" alt="Shoes" /></figure>
           <div class="card-body gap-4 text-center">
-            <h2 class="text-2xl text-[#121212] font-bold">12.90$ - 18.85$</h2>
+            <h2 class="text-2xl text-[#121212] font-bold">11.50$ - 15.85$</h2>
             <p>Apples</p>
             <div class="rating md:px-56 px-24">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -264,7 +360,7 @@
         <div class="card  bg-base-100 shadow-xl ">
           <figure><img src="images/fruit7.png" alt="Shoes" /></figure>
           <div class="card-body gap-4 text-center">
-            <h2 class="text-2xl text-[#121212] font-bold">12.90$ - 18.85$</h2>
+            <h2 class="text-2xl text-[#121212] font-bold">15.90$ - 18.85$</h2>
             <p>Orange</p>
             <div class="rating md:px-56 px-24">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -348,7 +444,7 @@
         <div class="card  bg-base-100 shadow-xl ">
           <figure><img src="images/fruit9.png" alt="Shoes" /></figure>
           <div class="card-body gap-4 text-center">
-            <h2 class="text-2xl text-[#121212] font-bold">12.90$ - 18.85$</h2>
+            <h2 class="text-2xl text-[#121212] font-bold">9.90$ - 14.85$</h2>
             <p>Banana</p>
             <div class="rating md:px-56 px-24">
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
@@ -636,7 +732,7 @@
     <div>
       <div class="flex mb-5">
         <img src="images/logo.png" alt="">
-        <h1 class="text-5xl">Fruit Burst</h1>
+        <h1 class="text-2xl md:text-5xl">Fruit Burst</h1>
       </div>
       <div class="grid grid-cols-4 gap-6 md:grid-cols-6">
         <p>Home</p>
